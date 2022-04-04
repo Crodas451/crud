@@ -6,14 +6,14 @@ namespace prueba
 {
     public class Conexion
     {
-        private string Conexion = @"Data Source = DESKTOP-LMSRAVI Catalog = Colegio1; Integrate Security = true";
+       private String Conexxion = @"Data Source = DESKTOP-LMSRAVI; Initial Catalog = Colegio1; Integrated Security = true";
         private SqlConnection cone;
         private SqlCommand cmd;
-        private SqlDataAdapter leer;
+        //private SqlDataAdapter leer;
 
         private void Conectar()
         {
-            cone = new SqlConnection(Conexion);
+            cone = new SqlConnection(Conexxion);
         }        
 
         public Conexion()
@@ -27,7 +27,7 @@ namespace prueba
             {
                 cmd = new SqlCommand(sql,cone);
                 cone.Open();
-                int i = cmd.ExcuteNonQuery();
+                int i = cmd.ExecuteNonQuery();
 
                 if(i > 0)
                 return true;

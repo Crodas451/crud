@@ -1,9 +1,14 @@
 using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
 using System.Data;
 
 namespace prueba.obj
 {
-    public class Estudiante
+    class Estudiante
     {
       Conexion conexion = new Conexion();
 
@@ -33,7 +38,7 @@ namespace prueba.obj
 
         public bool Insertar()
         {
-          String sql = @"INSERT INTO estudiantes values('"+this.Carne+"','"+this.Nombre+"','"+this.Apellido+"','"+this.Edad+"','"+this.Telefono+"','"+this.Direccion+"');";
+          String sql = @"INSERT INTO Estudiantes values('"+this.Carne+"','"+this.Nombre+"','"+this.Apellido+"','"+this.Edad+"','"+this.Telefono+"','"+this.Direccion+"');";
 
           if (conexion.Guardar(sql))
           
