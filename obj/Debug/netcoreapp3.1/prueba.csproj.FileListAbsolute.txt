@@ -1,0 +1,13 @@
+/home/bravo/Documentos/CRUD/prueba/bin/Debug/netcoreapp3.1/prueba
+/home/bravo/Documentos/CRUD/prueba/bin/Debug/netcoreapp3.1/prueba.deps.json
+/home/bravo/Documentos/CRUD/prueba/bin/Debug/netcoreapp3.1/prueba.runtimeconfig.json
+/home/bravo/Documentos/CRUD/prueba/bin/Debug/netcoreapp3.1/prueba.runtimeconfig.dev.json
+/home/bravo/Documentos/CRUD/prueba/bin/Debug/netcoreapp3.1/prueba.dll
+/home/bravo/Documentos/CRUD/prueba/bin/Debug/netcoreapp3.1/prueba.pdb
+/home/bravo/Documentos/CRUD/prueba/obj/Debug/netcoreapp3.1/prueba.csprojAssemblyReference.cache
+/home/bravo/Documentos/CRUD/prueba/obj/Debug/netcoreapp3.1/prueba.AssemblyInfoInputs.cache
+/home/bravo/Documentos/CRUD/prueba/obj/Debug/netcoreapp3.1/prueba.AssemblyInfo.cs
+/home/bravo/Documentos/CRUD/prueba/obj/Debug/netcoreapp3.1/prueba.csproj.CoreCompileInputs.cache
+/home/bravo/Documentos/CRUD/prueba/obj/Debug/netcoreapp3.1/prueba.dll
+/home/bravo/Documentos/CRUD/prueba/obj/Debug/netcoreapp3.1/prueba.pdb
+/home/bravo/Documentos/CRUD/prueba/obj/Debug/netcoreapp3.1/prueba.genruntimeconfig.cache
